@@ -1,8 +1,8 @@
 Install apache2:
   pkg.installed:
     - name: Apache2
-    - name: virtualenv
-    - name: libapache2-mod-wsgi-py3
+#    - name: virtualenv
+#    - name: libapache2-mod-wsgi-py3
 
 install virtualenv:
   pkg.installed:
@@ -36,9 +36,9 @@ source /home/jyri/publicwsgi/env/bin/activate && django-admin startproject testi
   file.managed:
     - source: salt://django/db.sqlite3
 
-/home/jyri/publicwsgi/testi/testi/settings.py:
-  file.managed:
-    - source: salt://django/settings.py
+#/home/jyri/publicwsgi/testi/testi/settings.py:
+#  file.managed:
+#    - source: salt://django/settings.py
 
 /etc/apache2/sites-available/testi.conf:
   file.managed:
