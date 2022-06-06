@@ -2,7 +2,7 @@
 Project for Configuration Management. 
 ## Topic (Alpha Phase)
 
-My project will be a module that will deploy a Django production installation with a Web interface. Multiple users can register, log in and edit customer database. The project is in alpha phase and will require a lot more tuning. 
+This is a module that deploy's a Django production installation with a Web interface. Multiple users can register, log in and edit customer database. The project is in alpha phase and will require a lot more tuning. 
 
 ## Features
 
