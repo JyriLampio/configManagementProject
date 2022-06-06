@@ -13,4 +13,4 @@ One click Django production installation.
 - sudo apt-get install virtualenv git, salt-minion
 - git clone git@github.com:JyriLampio/configManagementProject.git
 - Copy the django directory to /srv/salt/
-`sudo salt-call --local state.apply django`
+- `sudo salt-call --local state.apply django`
